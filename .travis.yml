@@ -9,14 +9,16 @@ cache:
 
 # S: Build Lifecycle
 install:
-  - sudo npm install
+  - npm install
+  - npm install ejs
   
 
 before_script:
-  - sudo npm install -g gulp
+  #- npm install -g gulp
 
 
 script:
+  - hexo clean
   - hexo g
 
 
