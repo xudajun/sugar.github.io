@@ -34,5 +34,5 @@ branches:
     - hexo
 env:
  global:
-   - GH_REF: https://github.com/xudajun/sugar.github.io.git
+   - GH_REF: github.com/xudajun/sugar.github.io.git
    - GH_TOKEN: 25f76e85a9f40ac5f66ca13ded3cb37c7f798363
