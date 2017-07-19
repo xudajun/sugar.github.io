@@ -13,7 +13,7 @@ install:
   
 
 before_script:
-  #- npm install -g gulp
+  -sudo npm install -g gulp
 
 
 script:
