@@ -9,11 +9,11 @@ cache:
 
 # S: Build Lifecycle
 install:
-  - npm install
+  - sudo npm install
   
 
 before_script:
-  -sudo npm install -g gulp
+  - sudo npm install -g gulp
 
 
 script:
