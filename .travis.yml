@@ -11,6 +11,9 @@ cache:
 install:
   - npm install
   - npm install ejs
+
+before_install:
+ - chmod +x gradlew
   
 
 before_script:
