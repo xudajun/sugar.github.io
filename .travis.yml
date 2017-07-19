@@ -19,6 +19,7 @@ before_install:
 before_script:
   - chmod +x node_modules
   #- npm install -g gulp
+  - npm install -g hexo-cli
 
 
 script:
