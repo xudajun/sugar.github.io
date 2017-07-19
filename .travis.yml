@@ -22,7 +22,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "xudajun"
+  - git config user.name "xuzhijun_90@163.com"
   - git config user.email "xuzhijun_90@163.com"
   - git add .
   - git commit -m "Update docs"
@@ -35,4 +35,3 @@ branches:
 env:
  global:
    - GH_REF: github.com/xudajun/sugar.github.io.git
-   - GH_TOKEN: f2f5a3b1fab6cb04d76c0040fd88e695d37eafd8
