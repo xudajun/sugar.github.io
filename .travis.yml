@@ -10,10 +10,9 @@ cache:
 # S: Build Lifecycle
 install:
   - npm install
-  - npm install ejs
 
 before_script:
-  - npm install -g gulp
+  #- npm install -g gulp
 
 
 script:
@@ -23,7 +22,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "xuzhijun_90@163.com"
+  - git config user.name "xudajun"
   - git config user.email "xuzhijun_90@163.com"
   - git add .
   - git commit -m "Update docs"
