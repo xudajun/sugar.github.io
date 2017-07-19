@@ -35,4 +35,4 @@ branches:
 env:
  global:
    - GH_REF: github.com/xudajun/sugar.github.io.git
-   - GH_TOKEN: 25f76e85a9f40ac5f66ca13ded3cb37c7f798363
+   - GH_TOKEN: f2f5a3b1fab6cb04d76c0040fd88e695d37eafd8
